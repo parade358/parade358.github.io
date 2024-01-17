@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Kevin"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/Kevin.png"
   bio              : "안녕하세요^^ Kevin 입니다."
   location         : "South Korea"
   email            : 
@@ -212,6 +212,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -220,6 +221,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 
 # Archives
@@ -273,5 +275,10 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fa-solid fa-list"
+      author_profile: false
 
 date_format: "%Y-%m-%d"
