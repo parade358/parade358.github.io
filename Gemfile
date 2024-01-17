@@ -6,3 +6,4 @@ gem 'kramdown-parser-gfm'
 gem 'webrick'
 gem "tzinfo"
 gem "tzinfo-data"
+gem 'jekyll-redirect-from'
